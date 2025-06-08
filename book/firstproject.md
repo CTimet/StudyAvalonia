@@ -15,7 +15,7 @@
 <p>本教程使用 Jetbrains Rider 作为示例IDE，您也可以使用Visual Studio或其他任何您喜爱的IDE。</p>
 <p>现在，基于您在官网文档中学习到的内容，创建您的第一个 Avalonia MVVM 项目，以后的学习，我们将基于此项目展开。</p>
 <p>将解决方案全部展开。现在您应该能从IDE的文件管理器中看到如下项目结构：</p>
-![项目结构](/img/project-struct.png) <br>
+<img src="/img/project-struct.png"> <br>
 <p>笔者接下来将逐步解释项目结构中各个文件夹，文件的作用。以方便您理解Avalonia MVVM项目是如何开发的</p>
 
 ### /Assests
@@ -34,9 +34,9 @@
 <p>ViewModels, 对应 MVVM 中的 "VM"，即ViewModel(视图模型)层。ViewModels中包含的类是View和Model之间的纽带。它通过数据绑定与View通信。</p>
 
 <p>微软文档中的下图展示了 MVVM 模式是如何工作的</p>
-![MVVM](https://learn.microsoft.com/zh-cn/dotnet/architecture/maui/media/mvvm-pattern.png)
+<img src="https://learn.microsoft.com/zh-cn/dotnet/architecture/maui/media/mvvm-pattern.png">
 
-<p>有关MVVM的详细介绍，请参阅 [微软文档](https://learn.microsoft.com/zh-cn/dotnet/architecture/maui/mvvm) </p>
+<p>有关MVVM的详细介绍，请参阅 <a href="https://learn.microsoft.com/zh-cn/dotnet/architecture/maui/mvvm">微软文档</a> </p>
 
 <p>在下一部分，我们将为您展示如何通过MVVM模式编写您的应用程序。</p>
 
@@ -45,7 +45,7 @@
 <p>在本部分，我们先不深入介绍 App.axaml 和 App.axaml.cs 文件。在日后的学习中，我们再逐步的深入。现在只是对该文件做初步的了解。</p>
 
 ### app.manifest
-<p>app.manifest(应用程序清单)仅在Windows下有用。但不要删除它，这可能会带来潜在的问题。一般的 Avalonia 程序开发中，我们用不到这个文件。所以在这里笔者不做详细介绍。如果您感兴趣，可以查询微软文档：https://learn.microsoft.com/zh-cn/windows/win32/sbscs/application-manifests</p>
+<p>app.manifest(应用程序清单)仅在Windows下有用。但不要删除它，这可能会带来潜在的问题。一般的 Avalonia 程序开发中，我们用不到这个文件。所以在这里笔者不做详细介绍。如果您感兴趣，可以查询微软文档：<a href="https://learn.microsoft.com/zh-cn/windows/win32/sbscs/application-manifests">app.manifest</a></p>
 
 ### Program.cs
 <p>这是整个应用程序的入口文件。在这里您可以手动管理 Avalonia 应用程序的生命周期。有关“生命周期”和“手动管理生命周期”，笔者将在后续内容中介绍。</p>
