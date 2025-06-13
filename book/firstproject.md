@@ -29,6 +29,7 @@
 ### /Views
 <p>Views, 对应 MVVM 中的 "V"，即View(视图)层。Views包含程序的界面，包含有限的，纯粹的展示用的逻辑，用于实现视觉行为。Views中包含的内容应该与业务逻辑无关。它不包含数据，不操作数据。它通过“数据绑定”与 ViewModel 通信。在后续的内容中，我们会为你介绍“数据绑定”和“ViewModel”</p>
 <p>在 Avalonia 中，“视图”由一个.axaml和与之绑定的.cs文件构成。</p>
+<p>由于Views包含程序的界面，因此，我们的程序的每个“界面”，都应该在这个文件夹里面。在下一节，你将看到我们如何创建“界面”并把它放在/Views下。</p>
 
 ### /ViewModels
 <p>ViewModels, 对应 MVVM 中的 "VM"，即ViewModel(视图模型)层。ViewModels中包含的类是View和Model之间的纽带。它通过数据绑定与View通信。</p>
